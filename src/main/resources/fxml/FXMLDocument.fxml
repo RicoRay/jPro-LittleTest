@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import eu.hansolo.enzo.qlocktwo.QlockTwo?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="378.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.my.javafxgradle.FXMLDocumentController">
+    <children>
+        <Label fx:id="lStatus" layoutX="250.0" layoutY="25.0" minHeight="16" minWidth="69" prefHeight="16.0" prefWidth="98.0" />
+      <TextField fx:id="tfUser" layoutX="79.0" layoutY="17.0" prefHeight="29.0" prefWidth="98.0" text="Vangelis" AnchorPane.leftAnchor="80.0" />
+      <TextField fx:id="tfMessage" layoutX="79.0" layoutY="58.0" prefHeight="29.0" prefWidth="312.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="110.0" />
+      <Label fx:id="lUser" layoutX="20.0" layoutY="21.0" text="User :" />
+      <Label fx:id="lMessage" layoutX="15.0" layoutY="65.0" text="Message :" />
+      <JFXSpinner fx:id="jfxSpinner" layoutX="200.0" layoutY="16.0" prefHeight="29.0" prefWidth="24.0" visible="false" />
+      <Separator layoutY="101.0" prefHeight="4.0" prefWidth="511.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <JFXButton fx:id="button" buttonType="RAISED" layoutX="406.0" layoutY="58.0" onAction="#handleButtonAction" prefHeight="29.0" prefWidth="84.0" ripplerFill="#121ee3" style="-fx-background-color: #48AACE;" text="Goooooooo !" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="58.0" />
+      <JFXListView fx:id="jfxListView" layoutX="20.0" layoutY="167.0" prefHeight="238.0" prefWidth="219.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="269.0" AnchorPane.topAnchor="120.0" />
+      <QlockTwo color="BLUE_CANDY" language="FRENCH" layoutX="237.0" layoutY="174.0" prefHeight="238.0" prefWidth="249.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="120.0" />
+    </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

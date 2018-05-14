@@ -1,0 +1,286 @@
+2018-04-15 19:21:42,484 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-2 - jpro.plainFile - Couldn't get resource for: 'jpro/html/index.html'
+2018-04-15 19:21:43,390 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-3 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-04-15 19:21:43,734 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-2 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-04-15 19:26:40,468 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-10 - jpro.plainFile - Couldn't get resource for: 'jpro/html/hellojpro'
+2018-04-15 19:27:08,843 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-12 - jpro.plainFile - Couldn't get resource for: 'jpro/html/org.my.javafxgradle.Main'
+2018-04-15 19:27:15,562 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-16 - jpro.plainFile - Couldn't get resource for: 'jpro/html/index.html'
+2018-04-15 20:06:19,828 [WARN] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - fxCPU_RAMCPU was NaN
+2018-04-15 20:27:50,984 [WARN] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - fxCPU_RAMCPU was NaN
+2018-04-15 21:38:06,207 [ERROR] from akka.io.TcpListener in application-akka.actor.default-dispatcher-5 - Bind failed for TCP channel on endpoint [/0.0.0.0:8080]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at akka.io.TcpListener.liftedTree1$1(TcpListener.scala:56)
+	at akka.io.TcpListener.<init>(TcpListener.scala:53)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at akka.util.Reflect$.instantiate(Reflect.scala:65)
+	at akka.actor.ArgsReflectConstructor.produce(IndirectActorProducer.scala:96)
+	at akka.actor.Props.newActor(Props.scala:213)
+	at akka.actor.ActorCell.newActor(ActorCell.scala:563)
+	at akka.actor.ActorCell.create(ActorCell.scala:589)
+	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:462)
+	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:484)
+	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:282)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:223)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2018-04-15 21:38:06,223 [WARN] from com.jpro.internal.server.Initializer$ in Thread-0 - JPro prevent System.exit
+2018-04-15 21:40:08,254 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-7 - jpro.plainFile - Couldn't get resource for: 'jpro/html/index.html'
+2018-04-16 22:04:27,078 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-4 - jpro.plainFile - Couldn't get resource for: 'jpro/html/index.html'
+2018-04-16 22:04:27,765 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-3 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-04-16 22:04:28,140 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-4 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-04-16 22:04:45,484 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: effect not supported: DMotionBlur(id: 20,id: 21)
+2018-04-16 22:04:45,828 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: effect not supported: DMotionBlur(id: 20,id: 21)
+2018-04-16 22:04:52,281 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: effect not supported: DMotionBlur(id: 20,id: 21)
+2018-04-16 22:04:52,562 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: effect not supported: DMotionBlur(id: 20,id: 21)
+2018-04-16 22:04:52,828 [WARN] from com.jpro.JS in JavaFX Application Thread - received msg: effect not supported: DMotionBlur(id: 20,id: 21)
+2018-05-06 22:01:22,046 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-4 - jpro.plainFile - Couldn't get resource for: 'jpro/html/index.html'
+2018-05-06 22:01:22,703 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-4 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-06 22:01:23,078 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-8 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-07 14:34:06,609 [WARN] from com.jpro.internal.stats.ServerInfo$ in JavaFX Application Thread - high memory usage: 91.53664945351957%
+2018-05-07 14:35:06,687 [WARN] from com.jpro.internal.stats.ServerInfo$ in JavaFX Application Thread - high memory usage: 91.76165956439394%
+2018-05-07 14:45:27,812 [WARN] from com.jpro.internal.stats.ServerInfo$ in JavaFX Application Thread - high memory usage: 92.54947546756628%
+2018-05-07 14:47:28,265 [WARN] from com.jpro.internal.stats.ServerInfo$ in JavaFX Application Thread - high memory usage: 90.04553900824652%
+2018-05-07 14:52:49,234 [WARN] from com.jpro.internal.stats.ServerInfo$ in JavaFX Application Thread - high memory usage: 95.68432432232481%
+2018-05-08 00:21:11,843 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-3 - jpro.plainFile - Couldn't get resource for: 'jpro/html/index.html'
+2018-05-08 00:21:14,031 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-9 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-08 00:21:14,390 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-7 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-08 00:22:43,687 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-3 - jpro.plainFile - Couldn't get resource for: 'jpro/html/fullscreen/javafxgradle'
+2018-05-10 21:40:41,484 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-6 - jpro.plainFile - Couldn't get resource for: 'jpro/html/fullscreen/Default'
+2018-05-10 21:40:41,718 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-10 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-10 21:40:41,734 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-10 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-10 21:41:47,359 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: xh(...).focus is not a function
+2018-05-10 21:45:17,000 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: xh(...).focus is not a function
+2018-05-10 23:50:35,562 [WARN] from com.jpro.internal.stats.ServerInfo$ in JavaFX Application Thread - high memory usage: 91.75038655598958%
+2018-05-11 23:42:10,390 [WARN] from com.jpro.internal.server.Initializer$ in Thread-15 - Initialization didn't finished after 5 seconds: reduce javafx keybindings
+2018-05-11 23:43:02,875 [WARN] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - fxCPU_RAMCPU was NaN
+2018-05-11 23:50:36,906 [ERROR] from akka.io.TcpListener in application-akka.actor.default-dispatcher-4 - Bind failed for TCP channel on endpoint [/0.0.0.0:8080]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at akka.io.TcpListener.liftedTree1$1(TcpListener.scala:56)
+	at akka.io.TcpListener.<init>(TcpListener.scala:53)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at akka.util.Reflect$.instantiate(Reflect.scala:65)
+	at akka.actor.ArgsReflectConstructor.produce(IndirectActorProducer.scala:96)
+	at akka.actor.Props.newActor(Props.scala:213)
+	at akka.actor.ActorCell.newActor(ActorCell.scala:563)
+	at akka.actor.ActorCell.create(ActorCell.scala:589)
+	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:462)
+	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:484)
+	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:282)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:223)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2018-05-11 23:50:36,937 [WARN] from com.jpro.internal.server.Initializer$ in Thread-0 - JPro prevent System.exit
+2018-05-11 23:57:29,234 [WARN] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - fxCPU_RAMCPU was NaN
+2018-05-11 23:57:51,031 [WARN] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - fxCPU_RAMCPU was NaN
+2018-05-12 00:02:18,546 [ERROR] from akka.io.TcpListener in application-akka.actor.default-dispatcher-5 - Bind failed for TCP channel on endpoint [/0.0.0.0:8080]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at akka.io.TcpListener.liftedTree1$1(TcpListener.scala:56)
+	at akka.io.TcpListener.<init>(TcpListener.scala:53)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at akka.util.Reflect$.instantiate(Reflect.scala:65)
+	at akka.actor.ArgsReflectConstructor.produce(IndirectActorProducer.scala:96)
+	at akka.actor.Props.newActor(Props.scala:213)
+	at akka.actor.ActorCell.newActor(ActorCell.scala:563)
+	at akka.actor.ActorCell.create(ActorCell.scala:589)
+	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:462)
+	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:484)
+	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:282)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:223)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2018-05-12 00:02:18,578 [WARN] from com.jpro.internal.server.Initializer$ in Thread-0 - JPro prevent System.exit
+2018-05-12 00:02:59,906 [WARN] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - fxCPU_RAMCPU was NaN
+2018-05-12 00:06:57,906 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 221
+2018-05-12 00:06:58,031 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 221
+2018-05-12 00:07:01,453 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 223
+2018-05-12 00:07:01,593 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 223
+2018-05-12 00:07:01,640 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 223
+2018-05-12 00:07:01,765 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 223
+2018-05-12 00:07:01,781 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 223
+2018-05-12 00:07:01,968 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 223
+2018-05-12 00:07:33,796 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-28 - jpro.plainFile - Couldn't get resource for: 'jpro/html/testfullscreen/default'
+2018-05-12 00:07:34,796 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-24 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-12 00:08:08,640 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 223
+2018-05-12 00:08:08,750 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 223
+2018-05-12 00:09:47,218 [WARN] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - fxCPU_RAMCPU was NaN
+2018-05-12 00:10:13,562 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Object doesn't support property or method 'focus'
+2018-05-12 00:53:50,062 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Object doesn't support property or method 'focus'
+2018-05-12 00:59:44,109 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 58
+2018-05-12 00:59:44,109 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 58
+2018-05-12 01:00:57,562 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Object doesn't support property or method 'focus'
+2018-05-12 01:04:21,593 [WARN] from com.jpro.internal.server.Initializer$ in Thread-0 - JPro prevent System.exit
+2018-05-12 01:04:21,593 [ERROR] from akka.io.TcpListener in application-akka.actor.default-dispatcher-5 - Bind failed for TCP channel on endpoint [/0.0.0.0:8080]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at akka.io.TcpListener.liftedTree1$1(TcpListener.scala:56)
+	at akka.io.TcpListener.<init>(TcpListener.scala:53)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at akka.util.Reflect$.instantiate(Reflect.scala:65)
+	at akka.actor.ArgsReflectConstructor.produce(IndirectActorProducer.scala:96)
+	at akka.actor.Props.newActor(Props.scala:213)
+	at akka.actor.ActorCell.newActor(ActorCell.scala:563)
+	at akka.actor.ActorCell.create(ActorCell.scala:589)
+	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:462)
+	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:484)
+	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:282)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:223)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2018-05-12 01:04:34,062 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Object doesn't support property or method 'focus'
+2018-05-12 01:07:48,718 [ERROR] from akka.io.TcpListener in application-akka.actor.default-dispatcher-3 - Bind failed for TCP channel on endpoint [/0.0.0.0:8080]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at akka.io.TcpListener.liftedTree1$1(TcpListener.scala:56)
+	at akka.io.TcpListener.<init>(TcpListener.scala:53)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at akka.util.Reflect$.instantiate(Reflect.scala:65)
+	at akka.actor.ArgsReflectConstructor.produce(IndirectActorProducer.scala:96)
+	at akka.actor.Props.newActor(Props.scala:213)
+	at akka.actor.ActorCell.newActor(ActorCell.scala:563)
+	at akka.actor.ActorCell.create(ActorCell.scala:589)
+	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:462)
+	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:484)
+	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:282)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:223)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2018-05-12 01:07:48,734 [WARN] from com.jpro.internal.server.Initializer$ in Thread-0 - JPro prevent System.exit
+2018-05-12 01:07:51,281 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Object doesn't support property or method 'focus'
+2018-05-12 01:08:56,765 [WARN] from com.jpro.internal.server.Initializer$ in Thread-0 - JPro prevent System.exit
+2018-05-12 01:08:56,781 [ERROR] from akka.io.TcpListener in application-akka.actor.default-dispatcher-5 - Bind failed for TCP channel on endpoint [/0.0.0.0:8080]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at akka.io.TcpListener.liftedTree1$1(TcpListener.scala:56)
+	at akka.io.TcpListener.<init>(TcpListener.scala:53)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at akka.util.Reflect$.instantiate(Reflect.scala:65)
+	at akka.actor.ArgsReflectConstructor.produce(IndirectActorProducer.scala:96)
+	at akka.actor.Props.newActor(Props.scala:213)
+	at akka.actor.ActorCell.newActor(ActorCell.scala:563)
+	at akka.actor.ActorCell.create(ActorCell.scala:589)
+	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:462)
+	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:484)
+	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:282)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:223)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2018-05-12 01:08:59,250 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Object doesn't support property or method 'focus'
+2018-05-12 01:11:20,828 [ERROR] from akka.io.TcpListener in application-akka.actor.default-dispatcher-4 - Bind failed for TCP channel on endpoint [/0.0.0.0:8080]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at akka.io.TcpListener.liftedTree1$1(TcpListener.scala:56)
+	at akka.io.TcpListener.<init>(TcpListener.scala:53)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at akka.util.Reflect$.instantiate(Reflect.scala:65)
+	at akka.actor.ArgsReflectConstructor.produce(IndirectActorProducer.scala:96)
+	at akka.actor.Props.newActor(Props.scala:213)
+	at akka.actor.ActorCell.newActor(ActorCell.scala:563)
+	at akka.actor.ActorCell.create(ActorCell.scala:589)
+	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:462)
+	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:484)
+	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:282)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:223)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2018-05-12 01:11:20,843 [WARN] from com.jpro.internal.server.Initializer$ in Thread-0 - JPro prevent System.exit
+2018-05-12 01:11:22,437 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Object doesn't support property or method 'focus'
+2018-05-12 01:12:40,281 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Object doesn't support property or method 'focus'
+2018-05-12 01:13:15,437 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 186
+2018-05-12 01:13:15,484 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 186
+2018-05-12 01:17:38,078 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Object doesn't support property or method 'focus'
+2018-05-12 01:19:57,406 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: Object doesn't support property or method 'focus'
+2018-05-12 18:53:56,109 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 165
+2018-05-12 18:53:56,437 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 165
+2018-05-12 18:54:07,625 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 188
+2018-05-12 18:54:07,703 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 188
+2018-05-12 18:54:45,578 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: xh(...).focus is not a function
+2018-05-12 20:17:53,734 [WARN] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - fxCPU_RAMCPU was NaN
+2018-05-12 20:23:17,656 [WARN] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - fxCPU_RAMCPU was NaN
+2018-05-12 20:37:07,734 [WARN] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - fxCPU_RAMCPU was NaN
+2018-05-12 20:38:32,718 [WARN] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - fxCPU_RAMCPU was NaN
+2018-05-12 20:56:10,078 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: xh(...).focus is not a function
+2018-05-12 20:58:21,734 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: xh(...).focus is not a function
+2018-05-12 21:49:12,453 [WARN] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - fxCPU_RAMCPU was NaN
+2018-05-12 22:08:08,750 [ERROR] from com.jpro.JS in JavaFX Application Thread - received msg: got error: scala.scalajs.js.JavaScriptException: TypeError: xh(...).focus is not a function
+2018-05-12 23:14:08,703 [WARN] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - fxCPU_RAMCPU was NaN
+2018-05-12 23:24:53,859 [WARN] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - fxCPU_RAMCPU was NaN
+2018-05-13 22:18:32,937 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 58
+2018-05-13 22:18:33,031 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 58
+2018-05-13 22:18:33,125 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 58
+2018-05-13 22:18:33,187 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 58
+2018-05-13 22:18:33,312 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 58
+2018-05-13 22:18:33,359 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 58
+2018-05-13 22:30:37,468 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-4 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-13 22:30:37,734 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-24 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'

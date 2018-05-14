@@ -1,0 +1,29 @@
+2018-04-15 19:21:35,781 [INFO] in Thread-0 - Starting the server
+2018-04-15 21:38:02,785 [INFO] in Thread-0 - Starting the server
+2018-04-15 21:40:03,816 [INFO] in Thread-0 - Starting the server
+2018-04-15 22:04:57,473 [INFO] in Thread-15 - Closing the server -> used memory: 173 MB  -  free system memory: 2192 MB
+2018-04-16 22:04:13,671 [INFO] in Thread-0 - Starting the server
+2018-04-16 23:00:24,328 [INFO] in Thread-15 - Closing the server -> used memory: 77 MB  -  free system memory: 2144 MB
+2018-05-06 22:01:11,781 [INFO] in Thread-0 - Starting the server
+2018-05-07 13:46:57,953 [INFO] in Thread-0 - Starting the server
+2018-05-07 13:59:55,156 [INFO] in Thread-0 - Starting the server
+2018-05-07 14:56:21,234 [INFO] in Thread-15 - Closing the server -> used memory: 160 MB  -  free system memory: 2054 MB
+2018-05-08 00:20:57,843 [INFO] in Thread-0 - Starting the server
+2018-05-10 21:24:49,562 [INFO] in Thread-0 - Starting the server
+2018-05-11 00:10:12,546 [INFO] in Thread-21 - Closing the server -> used memory: 150 MB  -  free system memory: 1915 MB
+2018-05-11 23:41:59,406 [INFO] in Thread-0 - Starting the server
+2018-05-11 23:50:29,593 [INFO] in Thread-0 - Starting the server
+2018-05-12 00:02:11,375 [INFO] in Thread-0 - Starting the server
+2018-05-12 00:58:07,062 [INFO] in Thread-0 - Starting the server
+2018-05-12 01:04:18,875 [INFO] in Thread-0 - Starting the server
+2018-05-12 01:07:45,453 [INFO] in Thread-0 - Starting the server
+2018-05-12 01:08:53,234 [INFO] in Thread-0 - Starting the server
+2018-05-12 01:11:17,765 [INFO] in Thread-0 - Starting the server
+2018-05-12 01:12:33,250 [INFO] in Thread-0 - Starting the server
+2018-05-12 01:17:29,562 [INFO] in Thread-0 - Starting the server
+2018-05-12 01:46:17,250 [INFO] in Thread-21 - Closing the server -> used memory: 219 MB  -  free system memory: 2131 MB
+2018-05-12 18:39:31,375 [INFO] in Thread-0 - Starting the server
+2018-05-12 18:48:08,296 [INFO] in Thread-0 - Starting the server
+2018-05-12 20:58:08,734 [INFO] in Thread-0 - Starting the server
+2018-05-12 23:01:26,140 [INFO] in Thread-0 - Starting the server
+2018-05-13 22:17:53,718 [INFO] in Thread-0 - Starting the server

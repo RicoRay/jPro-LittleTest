@@ -1,0 +1,65 @@
+/**
+ ******************  Script Configuration ******************
+ */
+buildscript {
+  repositories {
+    jcenter()
+
+    maven {
+      url "http://sandec.bintray.com/repo"
+    }
+  }
+
+  dependencies {
+    classpath 'com.sandec.jpro:jpro-plugin-gradle:2018.1.2'
+  }
+}
+
+repositories {
+  jcenter()
+}
+
+/**
+ ******************  Java Configuration ******************
+ */
+apply plugin: 'java'
+apply plugin: 'application'
+
+compileJava {
+  sourceCompatibility = 1.8
+  targetCompatibility = 1.8
+}
+
+dependencies {
+    implementation 'eu.hansolo.enzo:Enzo:0.3.6'    
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.11'
+	compile 'com.jfoenix:jfoenix:8.0.3'
+}
+
+/**
+ ******************  jpro Configuration ******************
+ */
+apply plugin: 'com.sandec.jpro'
+
+
+/**
+ * App Main Class
+ */
+mainClassName = 'org.my.javafxgradle.Main'
+
+/**
+ * jpro settings
+ */
+jpro {
+  // for debugging
+  // JVMArgs << '-agentlib:jdwp=transport=dt_socket,server=n,address=5006,suspend=y'
+
+  //jpro server port
+  port = 8080
+
+  //jpro version (optional)
+  jproVersion = "2018.1.2"
+
+  openingPath = ""
+}
