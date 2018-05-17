@@ -3867,3 +3867,67 @@
 2018-05-13 22:35:44,437 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.c.InstanceImpl - closing window!
 2018-05-13 22:35:44,437 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.a.InstanceViewer$$anon$4 - List(com.jpro.internal.admin.TableData@1efd438)
 2018-05-13 22:35:44,437 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.a.InstanceViewer$$anon$4 - List()
+2018-05-17 15:58:43,126 [INFO] in Thread-0 -  
+2018-05-17 15:58:43,139 [INFO] in Thread-0 - redirected OUT / ERR
+2018-05-17 15:58:43,140 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2018-05-17 15:58:43,172 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.MonocleInitializer$ - screen: null
+2018-05-17 15:58:43,430 [INFO] in JavaFX-Launcher - Warning: Quantum will not submit render jobs, nothing should draw
+2018-05-17 15:58:44,137 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.Initializer$ - finished init!
+2018-05-17 15:58:44,208 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.c.m.DynamicDataModel - Started Monitoring chart data...
+2018-05-17 15:58:44,650 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.c.m.ChartJSONImExporter - Imported chart data Thu May 17 15:58:43 CEST 2018
+2018-05-17 15:58:44,854 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ServerInfo$ - System-Infos: 
+2018-05-17 15:58:44,855 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ServerInfo$ - javaversion: 1.8.0_77
+2018-05-17 15:58:44,855 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ServerInfo$ - max ram    : 1801m
+2018-05-17 15:58:44,922 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] play.api.Play - Application started (Prod)
+2018-05-17 15:58:45,884 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] p.c.s.AkkaHttpServer - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2018-05-17 15:58:47,306 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [warn] c.jpro - jpro.plainFile - Couldn't get resource for: 'jpro/html/index.html'
+2018-05-17 15:58:47,613 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [warn] c.jpro - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-17 15:58:47,639 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [warn] c.jpro - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-17 15:59:07,308 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - application requested: 0!default
+2018-05-17 15:59:07,336 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - Creating Application: 0!default
+2018-05-17 15:59:07,350 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - remoteAddress 127.0.0.1
+2018-05-17 15:59:07,351 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - host          localhost:8080
+2018-05-17 15:59:07,351 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - uri           /app/0!default
+2018-05-17 15:59:08,185 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [warn] javafx - Loading FXML document with JavaFX API of version 8.0.141 by JavaFX runtime of version 8.0.72
+2018-05-17 15:59:10,543 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewSerializerActor - appdef: AppByMain(default,org.my.javafxgradle.Main,None,NamedClassLoader(system),false) clientinfo: ClientInfo(http://localhost:8080/test/fullscreen/default,http://localhost:8080/app/default,1366.0,623.0,false,fr,List(fr, fr-FR, en-US, en),Map())out: Actor[akka://application/user/StreamSupervisor-0/flow-9-2-actorRefSource#106665520]
+2018-05-17 15:59:11,413 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.m.s.Util$ - workaround for image: javafx.scene.image.WritableImage@2e457cc7
+2018-05-17 15:59:11,614 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.m.s.Util$ - file url: file:/d:/Users/carsint/AppData/Local/Temp/jpro-7f3e3087caf097d9a4eb0dcacaf55924.png
+2018-05-17 15:59:11,621 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.m.s.Util$ - file hash: 7f3e3087caf097d9a4eb0dcacaf55924
+2018-05-17 15:59:13,479 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] com.jpro.JS - received msg: new MainID: 8697 userid: 1385465457
+2018-05-17 16:00:03,796 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - 
+2018-05-17 16:00:03,802 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - Application closed:
+2018-05-17 16:00:03,802 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - startTime      : Thu May 17 16:00:03 CEST 2018      
+2018-05-17 16:00:03,803 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - averageLatency : -00:00:00.004 
+2018-05-17 16:00:03,803 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.010  
+2018-05-17 16:00:03,803 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2018-05-17 16:00:03,803 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2018-05-17 16:00:03,803 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - raw            : 779231
+2018-05-17 16:00:03,803 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - zipped         : 206449
+2018-05-17 16:00:03,803 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - 
+2018-05-17 16:00:03,818 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - application requested: 1816305317!default
+2018-05-17 16:00:03,819 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - Creating Application: 1816305317!default
+2018-05-17 16:00:03,819 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - remoteAddress 127.0.0.1
+2018-05-17 16:00:03,819 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - host          localhost:8080
+2018-05-17 16:00:03,820 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - uri           /app/1816305317!default
+2018-05-17 16:00:04,418 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - application requested: 0!default
+2018-05-17 16:00:04,419 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - Creating Application: 0!default
+2018-05-17 16:00:04,419 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - remoteAddress 127.0.0.1
+2018-05-17 16:00:04,419 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - host          localhost:8080
+2018-05-17 16:00:04,420 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.jpro - uri           /app/0!default
+2018-05-17 16:00:04,503 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [warn] javafx - Loading FXML document with JavaFX API of version 8.0.141 by JavaFX runtime of version 8.0.72
+2018-05-17 16:00:04,931 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewSerializerActor - appdef: AppByMain(default,org.my.javafxgradle.Main,None,NamedClassLoader(system),false) clientinfo: ClientInfo(http://localhost:8080/test/fullscreen/default,http://localhost:8080/app/default,1366.0,623.0,false,fr,List(fr, fr-FR, en-US, en),Map())out: Actor[akka://application/user/StreamSupervisor-0/flow-17-2-actorRefSource#1957355811]
+2018-05-17 16:00:04,978 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.m.s.Util$ - workaround for image: javafx.scene.image.WritableImage@795a401
+2018-05-17 16:00:05,063 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.m.s.Util$ - file url: file:/d:/Users/carsint/AppData/Local/Temp/jpro-7f3e3087caf097d9a4eb0dcacaf55924.png
+2018-05-17 16:00:05,063 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.m.s.Util$ - file hash: 7f3e3087caf097d9a4eb0dcacaf55924
+2018-05-17 16:00:05,923 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] com.jpro.JS - received msg: new MainID: 8738 userid: 1024894257
+2018-05-17 16:00:27,163 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.c.InstanceImpl - closing window!
+2018-05-17 16:36:13,871 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - 
+2018-05-17 16:36:13,873 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - Application closed:
+2018-05-17 16:36:13,873 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - startTime      : Thu May 17 16:36:13 CEST 2018      
+2018-05-17 16:36:13,873 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.041 
+2018-05-17 16:36:13,874 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.008  
+2018-05-17 16:36:13,874 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2018-05-17 16:36:13,875 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2018-05-17 16:36:13,875 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - raw            : 18342151
+2018-05-17 16:36:13,875 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - zipped         : 1797087
+2018-05-17 16:36:13,875 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [info] c.j.i.s.ViewInfo$ - 

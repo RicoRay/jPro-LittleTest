@@ -6,9 +6,9 @@
 package org.my.javafxgradle;
 
 import com.mysql.cj.jdbc.MysqlDataSource;
-import java.net.URL;
+
 import java.sql.Connection;
-import java.sql.DriverManager;
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -32,8 +32,7 @@ public class Data {
      */
     public static void insertMessage(String user, String message) {
         try {
-            //String url = "jdbc:mysql://db4free.net:3307/labase2030";
-            
+                        
             String sql = "INSERT INTO tb_Message (user_id, message, submission_date) VALUES (?, ?, NOW())";
             MysqlDataSource dataSource = getMysqlDataSource();
             
@@ -101,12 +100,6 @@ public class Data {
         
         MysqlDataSource dataSource = new MysqlDataSource();
 
-//        String login = "seb62375";
-//        String pwd = "neutre3nC02";
-//
-//        dataSource.setDatabaseName("labase2030");
-//        dataSource.setServerName("db4free.net");
-
         Tools tools = new Tools();
 
         String login = tools.getPropertie(databasePropPath, "database.login");
@@ -116,6 +109,11 @@ public class Data {
         dataSource.setDatabaseName(tools.getPropertie(databasePropPath, "database.databasename"));
         dataSource.setServerName(tools.getPropertie(databasePropPath, "database.servername"));
         dataSource.setPortNumber(3306);
+        try {
+            dataSource.setServerTimezone("Europe/Paris");
+        } catch (SQLException ex) {
+            Logger.getLogger(Data.class.getName()).log(Level.SEVERE, null, ex);
+        }
         
         try {
             dataSource.setUseSSL(false);

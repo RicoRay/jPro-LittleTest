@@ -284,3 +284,8 @@ java.net.BindException: Address already in use: bind
 2018-05-13 22:18:33,359 [WARN] from com.jpro.meta.tk.SceneInputListener in JavaFX Application Thread - Unknown Keycode: 58
 2018-05-13 22:30:37,468 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-4 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
 2018-05-13 22:30:37,734 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-24 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-17 15:58:47,302 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-8 - jpro.plainFile - Couldn't get resource for: 'jpro/html/index.html'
+2018-05-17 15:58:47,597 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-8 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-17 15:58:47,639 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-10 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-17 15:59:08,182 [WARN] from javafx in JavaFX Application Thread - Loading FXML document with JavaFX API of version 8.0.141 by JavaFX runtime of version 8.0.72
+2018-05-17 16:00:04,501 [WARN] from javafx in JavaFX Application Thread - Loading FXML document with JavaFX API of version 8.0.141 by JavaFX runtime of version 8.0.72

@@ -4029,3 +4029,69 @@ java.net.BindException: Address already in use: bind
 2018-05-13 22:35:44,437 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
 2018-05-13 22:35:44,437 [INFO] from com.jpro.internal.admin.InstanceViewer$$anon$4 in JavaFX Application Thread - List(com.jpro.internal.admin.TableData@1efd438)
 2018-05-13 22:35:44,437 [INFO] from com.jpro.internal.admin.InstanceViewer$$anon$4 in JavaFX Application Thread - List()
+2018-05-17 15:58:42,229 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2018-05-17 15:58:43,118 [INFO] from com.jpro.internal.server.Initializer$ in Thread-0 - calling init!
+2018-05-17 15:58:43,118 [INFO] from com.jpro.activity in Thread-0 - Starting the server
+2018-05-17 15:58:43,118 [INFO] from com.jpro.internal.server.Initializer$ in Thread-0 - OS: Windows 7
+2018-05-17 15:58:43,118 [INFO] from com.jpro.internal.server.Initializer$ in Thread-0 - JVM: 1.8.0_77 Oracle Corporation
+2018-05-17 15:58:43,139 [INFO] from com.jpro.internal.server.Initializer$ in Thread-0 - installed SLF4JBridge
+2018-05-17 15:58:43,172 [INFO] from com.jpro.internal.server.MonocleInitializer$ in Thread-0 - screen: null
+2018-05-17 15:58:44,136 [INFO] from com.jpro.internal.server.Initializer$ in Thread-0 - finished init!
+2018-05-17 15:58:44,208 [INFO] from com.jpro.internal.chart.model.DynamicDataModel in JavaFX Application Thread - Started Monitoring chart data...
+2018-05-17 15:58:44,649 [INFO] from com.jpro.internal.chart.model.ChartJSONImExporter in JavaFX Application Thread - Imported chart data Thu May 17 15:58:43 CEST 2018
+2018-05-17 15:58:44,854 [INFO] from com.jpro.internal.stats.ServerInfo$ in JavaFX Application Thread - System-Infos: 
+2018-05-17 15:58:44,854 [INFO] from com.jpro.internal.stats.ServerInfo$ in JavaFX Application Thread - javaversion: 1.8.0_77
+2018-05-17 15:58:44,854 [INFO] from com.jpro.internal.stats.ServerInfo$ in JavaFX Application Thread - max ram    : 1801m
+2018-05-17 15:58:44,922 [INFO] from play.api.Play in Thread-0 - Application started (Prod)
+2018-05-17 15:58:45,884 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2018-05-17 15:58:47,302 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-8 - jpro.plainFile - Couldn't get resource for: 'jpro/html/index.html'
+2018-05-17 15:58:47,597 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-8 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-17 15:58:47,639 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-10 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2018-05-17 15:59:07,308 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - application requested: 0!default
+2018-05-17 15:59:07,335 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - Creating Application: 0!default
+2018-05-17 15:59:07,341 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - remoteAddress 127.0.0.1
+2018-05-17 15:59:07,341 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - host          localhost:8080
+2018-05-17 15:59:07,342 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - uri           /app/0!default
+2018-05-17 15:59:08,182 [WARN] from javafx in JavaFX Application Thread - Loading FXML document with JavaFX API of version 8.0.141 by JavaFX runtime of version 8.0.72
+2018-05-17 15:59:10,542 [INFO] from com.jpro.internal.server.ViewSerializerActor in JavaFX Application Thread - appdef: AppByMain(default,org.my.javafxgradle.Main,None,NamedClassLoader(system),false) clientinfo: ClientInfo(http://localhost:8080/test/fullscreen/default,http://localhost:8080/app/default,1366.0,623.0,false,fr,List(fr, fr-FR, en-US, en),Map())out: Actor[akka://application/user/StreamSupervisor-0/flow-9-2-actorRefSource#106665520]
+2018-05-17 15:59:11,413 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image: javafx.scene.image.WritableImage@2e457cc7
+2018-05-17 15:59:11,613 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - file url: file:/d:/Users/carsint/AppData/Local/Temp/jpro-7f3e3087caf097d9a4eb0dcacaf55924.png
+2018-05-17 15:59:11,613 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - file hash: 7f3e3087caf097d9a4eb0dcacaf55924
+2018-05-17 15:59:13,478 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 8697 userid: 1385465457
+2018-05-17 16:00:03,796 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2018-05-17 16:00:03,796 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2018-05-17 16:00:03,798 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Thu May 17 16:00:03 CEST 2018      
+2018-05-17 16:00:03,798 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : -00:00:00.004 
+2018-05-17 16:00:03,798 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.010  
+2018-05-17 16:00:03,799 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2018-05-17 16:00:03,801 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2018-05-17 16:00:03,801 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 779231
+2018-05-17 16:00:03,802 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 206449
+2018-05-17 16:00:03,802 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2018-05-17 16:00:03,813 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-3 - application requested: 1816305317!default
+2018-05-17 16:00:03,814 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-3 - Creating Application: 1816305317!default
+2018-05-17 16:00:03,814 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-3 - remoteAddress 127.0.0.1
+2018-05-17 16:00:03,815 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-3 - host          localhost:8080
+2018-05-17 16:00:03,815 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-3 - uri           /app/1816305317!default
+2018-05-17 16:00:04,416 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-3 - application requested: 0!default
+2018-05-17 16:00:04,417 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-3 - Creating Application: 0!default
+2018-05-17 16:00:04,417 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-3 - remoteAddress 127.0.0.1
+2018-05-17 16:00:04,417 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-3 - host          localhost:8080
+2018-05-17 16:00:04,417 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-3 - uri           /app/0!default
+2018-05-17 16:00:04,501 [WARN] from javafx in JavaFX Application Thread - Loading FXML document with JavaFX API of version 8.0.141 by JavaFX runtime of version 8.0.72
+2018-05-17 16:00:04,930 [INFO] from com.jpro.internal.server.ViewSerializerActor in JavaFX Application Thread - appdef: AppByMain(default,org.my.javafxgradle.Main,None,NamedClassLoader(system),false) clientinfo: ClientInfo(http://localhost:8080/test/fullscreen/default,http://localhost:8080/app/default,1366.0,623.0,false,fr,List(fr, fr-FR, en-US, en),Map())out: Actor[akka://application/user/StreamSupervisor-0/flow-17-2-actorRefSource#1957355811]
+2018-05-17 16:00:04,977 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - workaround for image: javafx.scene.image.WritableImage@795a401
+2018-05-17 16:00:05,047 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - file url: file:/d:/Users/carsint/AppData/Local/Temp/jpro-7f3e3087caf097d9a4eb0dcacaf55924.png
+2018-05-17 16:00:05,047 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - file hash: 7f3e3087caf097d9a4eb0dcacaf55924
+2018-05-17 16:00:05,923 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 8738 userid: 1024894257
+2018-05-17 16:00:27,162 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2018-05-17 16:36:13,871 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2018-05-17 16:36:13,871 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2018-05-17 16:36:13,871 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Thu May 17 16:36:13 CEST 2018      
+2018-05-17 16:36:13,871 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.041 
+2018-05-17 16:36:13,871 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.008  
+2018-05-17 16:36:13,871 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2018-05-17 16:36:13,871 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2018-05-17 16:36:13,871 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 18342151
+2018-05-17 16:36:13,871 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 1797087
+2018-05-17 16:36:13,871 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
